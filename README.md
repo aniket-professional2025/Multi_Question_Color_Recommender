@@ -6,3 +6,6 @@ The main.py code creates a python pipeline that uses different combination of qu
 
 ### The question_color_recommender.py
 To overcome the previous issue where the user must write their answers, this file is developed along with the `app.py` to make the process more streamline from the user perspective. Now, one question will come with its different options in a multiple choice format. Thus 5 questions will appear. Once, all the five questions are answered, the user will autometically see the top 3 suggested colors with reasons like how the user selection helps the recommendation engine to find the colors and the reason behind selection of three colors.
+
+### TO Run
+To run the complete project and use the streamlit frontend, one need his/her own OpenAI API key and run the code `streamlit run app.py` from the CLI to run the CLI in localhost server
